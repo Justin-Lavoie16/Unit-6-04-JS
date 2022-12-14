@@ -50,62 +50,23 @@
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
           <span class="mdl-layout-title">My first PWA</span>
-        </div>
+       </div>
       </header>
       <main class="mdl-layout__content">
-        <p></p>
-        <img
-          src="./images/notebook-animation.svg"
-          alt="Computer"
-          width="25%"
-          height="25%"
-        />
-        <h2>Formulas</h2>
-        <h3>pay = (hours x rate) x (1.00 - 0.18)</h3>
-        <h3>taxes = (hours x rate) x 0.18</h3>
-        <form action="#">
-          <p>time worked for</p>
-          <div class="mdl-textfield mdl-js-textfield">
-            <input
-              class="mdl-textfield__input"
-              type="text"
-              pattern="-?[0-9]*(\.[0-9]+)?"
-              id="pay"
-            />
-            <label class="mdl-textfield__label" for="pay"
-              >number of hours worked ...</label
-            >
-            <span class="mdl-textfield__error">Input is not a number!</span>
-          </div>
-        </form>
-        <form action="#">
-          <p>hourly rate</p>
-          <div class="mdl-textfield mdl-js-textfield">
-            <input
-              class="mdl-textfield__input"
-              type="text"
-              pattern="-?[0-9]*(\.[0-9]+)?"
-              id="pay2"
-            />
-            <label class="mdl-textfield__label" for="pay2"
-              >hourly rate ...</label
-            >
-            <span class="mdl-textfield__error">Input is not a number!</span>
-          </div>
-        </form>
-        <button
-          class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-          onclick="calculate()"
-        >
-          Calculate
-        </button>
-        <br />
-        <p></p>
-        <div id="answers">
-          <div id="area"></div>
-          <div id="perimeter"></div>
-        </div>
+        <br>
+        <br>
+          <tr>
+            <th>
+              <h3>Formula</h3>
+              <h4>V= 4/3πr³</h4>
+            </th>
+
+        </table>
+        <br>
+        <br>
+      The dimensions are:
+      <div id="cube"></div>
+        <div id="answer"></div>
       </main>
     </div>
-  </body>
 </html>
